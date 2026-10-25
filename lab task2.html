@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+ 
+<h1>HTML Calculator</h1>
+ 
+<input type="text" id="num" readonly>
+<br><br>
+ 
+<button onclick="num.value=''">C</button>
+<button onclick="num.value=num.value.slice(0,-1)">DEL</button>
+<button onclick="num.value+='*'">X</button>
+<button onclick="num.value+='/'">/</button>
+<br><br>
+ 
+<button onclick="num.value+='1'">1</button>
+<button onclick="num.value+='2'">2</button>
+<button onclick="num.value+='3'">3</button>
+<button onclick="num.value+='+'">+</button>
+<br><br>
+ 
+<button onclick="num.value+='4'">4</button>
+<button onclick="num.value+='5'">5</button>
+<button onclick="num.value+='6'">6</button>
+<button onclick="num.value+='-'">-</button>
+<br><br>
+ 
+<button onclick="num.value+='7'">7</button>
+<button onclick="num.value+='8'">8</button>
+<button onclick="num.value+='9'">9</button>
+<button onclick="num.value=eval(num.value)">=</button>
+<br><br>
+ 
+<button onclick="num.value+='0'">0</button>
+<button onclick="num.value+='.'">.</button>
+ 
+</body>
+</html>
